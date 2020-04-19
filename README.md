@@ -9,6 +9,8 @@ React Native App to shipping goods from one place to another
 <h3>React Navigation v5</h3>
 <h3>React Components </h3>
 <h3>Redux</h3>
+ <h3>Redux-Thunk</h3>
+
 <h3>Fetch</h3>
 <h3>Native Base UI</h3>
 <p>
