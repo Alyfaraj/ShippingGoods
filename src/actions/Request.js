@@ -18,7 +18,7 @@ export const addRequest = (from, to, shippingType, date) => {
             date: date
         }
         dispatch(loading(true))
-         fetch(`https://enter-app-d9a8e.firebaseio.com/Requests/${userId}.json?auth=${token}`, {
+         fetch(`apirot/Requests/${userId}.json?auth=${token}`, {
             method: 'POST',
             body: JSON.stringify(requestData)
         })
@@ -38,7 +38,7 @@ export const getRequests = () => {
     return (dispatch,getState) => {
         const userId=getState().auth.userId;
         dispatch(loadingHistory(true))
-        return fetch(`https://enter-app-d9a8e.firebaseio.com/Requests/${userId}.json`)
+        return fetch(`apiroot/Requests/${userId}.json`)
             .then(resopne => resopne.json())
             .then(parsedRes => {
                 const Requests = [];
