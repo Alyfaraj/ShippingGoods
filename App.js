@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Nav from './src/navigation/index';
 import { Provider, connect } from 'react-redux'
 import configStore from './src/store/configStore'
 import SplashScreen from './src/screens/Splash';
+
+
 const store = configStore();
 
 class App extends React.Component {
