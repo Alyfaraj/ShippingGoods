@@ -6,8 +6,6 @@ import DrawerTab from './DrawerTab'
 import { AsyncStorage } from 'react-native';
 import { connect } from 'react-redux';
 
-
-
 const LoadingStack = createStackNavigator();
 
 class RootStack extends React.Component {
@@ -27,5 +25,3 @@ const MapStateToProps=state=>{
     getuser:state.auth.userId
   }
 }
-
-export default connect(MapStateToProps)(RootStack)
