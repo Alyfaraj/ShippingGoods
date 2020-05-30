@@ -5,8 +5,7 @@ import uiReducer from '../reducers/ui-reducer'
 import authReducer from '../reducers/Auth'
 
 const rootReducer = combineReducers(
-    {
-        requests: requestReducer,
+    {   requests: requestReducer,
         ui: uiReducer,
         auth:authReducer
     }
