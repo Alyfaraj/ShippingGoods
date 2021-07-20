@@ -21,7 +21,7 @@
     "moment": "^2.24.0",
     "native-base": "^2.13.12",
     "react": "16.11.0",
-    "react-native": "0.62.1",
+    "react-native": "0.62.3",
     "react-native-dropdownalert": "^4.2.1",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-keyboard-aware-scrollview": "^2.1.0",
